@@ -10,14 +10,14 @@ register_heif_opener()
 s3 = boto3.resource('s3')
 
 # Get list of objects for indexing
-images=[('image1.jpg','Elon Musk'),
-      ('image2.jpg','Elon Musk'),
-      ('image3.jpg','Bill Gates'),
-      ('image4.jpg','Bill Gates'),
+images=[('image1.jpg','Lebron James'),
+      ('image2.png','Lebron James'),
+      ('image3.png','Jungkook'),
+      ('image4.jpg','Jungkook'),
       ('image5.jpg','Taylor Swift'),
       ('image6.jpg','Taylor Swift'),
-      ('image7.jpg','Ryan Maquiling'),
-      ('image8.jpg','Ryan Maquiling'),
+      ('image7.jpg','Sabrina Carpenter'),
+      ('image8.jpg','Sabrina Carpenter'),
       ('<YourPic1.jpg>','<YourName>'), # CHANGE
       ('<YourPic2.jpg>','<YourName>') # CHANGE
       ]
